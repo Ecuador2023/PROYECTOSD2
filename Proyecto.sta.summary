@@ -1,0 +1,293 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'RAM_generic:inst33|Rammemory_rtl_0_bypass[0]'
+Slack : -58.820
+TNS   : -58.820
+
+Type  : Slow 1100mV 85C Model Setup 'Clock'
+Slack : -15.141
+TNS   : -1707.184
+
+Type  : Slow 1100mV 85C Model Setup 'FrequencySound:inst1|Clk_1Hz'
+Slack : -1.302
+TNS   : -13.520
+
+Type  : Slow 1100mV 85C Model Setup 'Reloj_Segundos:inst19|Fin'
+Slack : -1.282
+TNS   : -9.564
+
+Type  : Slow 1100mV 85C Model Hold 'Clock'
+Slack : 0.270
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'RAM_generic:inst33|Rammemory_rtl_0_bypass[0]'
+Slack : 0.331
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'FrequencySound:inst1|Clk_1Hz'
+Slack : 0.567
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'Reloj_Segundos:inst19|Fin'
+Slack : 0.750
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'Reloj_Segundos:inst19|Fin'
+Slack : -3.593
+TNS   : -28.722
+
+Type  : Slow 1100mV 85C Model Recovery 'FrequencySound:inst1|Clk_1Hz'
+Slack : -2.775
+TNS   : -30.496
+
+Type  : Slow 1100mV 85C Model Recovery 'Clock'
+Slack : -2.423
+TNS   : -60.614
+
+Type  : Slow 1100mV 85C Model Removal 'Clock'
+Slack : 1.576
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'FrequencySound:inst1|Clk_1Hz'
+Slack : 2.053
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'Reloj_Segundos:inst19|Fin'
+Slack : 2.984
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Clock'
+Slack : -2.225
+TNS   : -615.734
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'FrequencySound:inst1|Clk_1Hz'
+Slack : -0.394
+TNS   : -6.147
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Reloj_Segundos:inst19|Fin'
+Slack : -0.394
+TNS   : -4.079
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'RAM_generic:inst33|Rammemory_rtl_0_bypass[0]'
+Slack : -0.317
+TNS   : -0.629
+
+Type  : Slow 1100mV 0C Model Setup 'RAM_generic:inst33|Rammemory_rtl_0_bypass[0]'
+Slack : -60.248
+TNS   : -60.248
+
+Type  : Slow 1100mV 0C Model Setup 'Clock'
+Slack : -14.980
+TNS   : -1657.038
+
+Type  : Slow 1100mV 0C Model Setup 'FrequencySound:inst1|Clk_1Hz'
+Slack : -1.328
+TNS   : -13.579
+
+Type  : Slow 1100mV 0C Model Setup 'Reloj_Segundos:inst19|Fin'
+Slack : -1.307
+TNS   : -9.678
+
+Type  : Slow 1100mV 0C Model Hold 'Clock'
+Slack : 0.104
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'RAM_generic:inst33|Rammemory_rtl_0_bypass[0]'
+Slack : 0.274
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'FrequencySound:inst1|Clk_1Hz'
+Slack : 0.552
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Reloj_Segundos:inst19|Fin'
+Slack : 0.697
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'Reloj_Segundos:inst19|Fin'
+Slack : -3.651
+TNS   : -29.190
+
+Type  : Slow 1100mV 0C Model Recovery 'FrequencySound:inst1|Clk_1Hz'
+Slack : -2.899
+TNS   : -31.858
+
+Type  : Slow 1100mV 0C Model Recovery 'Clock'
+Slack : -2.278
+TNS   : -56.865
+
+Type  : Slow 1100mV 0C Model Removal 'Clock'
+Slack : 1.514
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'FrequencySound:inst1|Clk_1Hz'
+Slack : 2.197
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'Reloj_Segundos:inst19|Fin'
+Slack : 3.066
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Clock'
+Slack : -2.225
+TNS   : -589.419
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'FrequencySound:inst1|Clk_1Hz'
+Slack : -0.394
+TNS   : -6.340
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Reloj_Segundos:inst19|Fin'
+Slack : -0.394
+TNS   : -4.094
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'RAM_generic:inst33|Rammemory_rtl_0_bypass[0]'
+Slack : -0.244
+TNS   : -0.538
+
+Type  : Fast 1100mV 85C Model Setup 'RAM_generic:inst33|Rammemory_rtl_0_bypass[0]'
+Slack : -31.156
+TNS   : -31.156
+
+Type  : Fast 1100mV 85C Model Setup 'Clock'
+Slack : -8.453
+TNS   : -821.690
+
+Type  : Fast 1100mV 85C Model Setup 'FrequencySound:inst1|Clk_1Hz'
+Slack : -0.543
+TNS   : -4.967
+
+Type  : Fast 1100mV 85C Model Setup 'Reloj_Segundos:inst19|Fin'
+Slack : -0.456
+TNS   : -3.337
+
+Type  : Fast 1100mV 85C Model Hold 'RAM_generic:inst33|Rammemory_rtl_0_bypass[0]'
+Slack : 0.145
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'Clock'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'FrequencySound:inst1|Clk_1Hz'
+Slack : 0.251
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'Reloj_Segundos:inst19|Fin'
+Slack : 0.385
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'Reloj_Segundos:inst19|Fin'
+Slack : -1.609
+TNS   : -12.863
+
+Type  : Fast 1100mV 85C Model Recovery 'FrequencySound:inst1|Clk_1Hz'
+Slack : -1.106
+TNS   : -12.158
+
+Type  : Fast 1100mV 85C Model Recovery 'Clock'
+Slack : -0.886
+TNS   : -20.795
+
+Type  : Fast 1100mV 85C Model Removal 'Clock'
+Slack : 0.571
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'FrequencySound:inst1|Clk_1Hz'
+Slack : 0.850
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'Reloj_Segundos:inst19|Fin'
+Slack : 1.416
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Clock'
+Slack : -2.174
+TNS   : -511.893
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'RAM_generic:inst33|Rammemory_rtl_0_bypass[0]'
+Slack : -0.104
+TNS   : -0.195
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'FrequencySound:inst1|Clk_1Hz'
+Slack : 0.018
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Reloj_Segundos:inst19|Fin'
+Slack : 0.159
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'RAM_generic:inst33|Rammemory_rtl_0_bypass[0]'
+Slack : -29.220
+TNS   : -29.220
+
+Type  : Fast 1100mV 0C Model Setup 'Clock'
+Slack : -7.621
+TNS   : -710.400
+
+Type  : Fast 1100mV 0C Model Setup 'FrequencySound:inst1|Clk_1Hz'
+Slack : -0.451
+TNS   : -4.266
+
+Type  : Fast 1100mV 0C Model Setup 'Reloj_Segundos:inst19|Fin'
+Slack : -0.401
+TNS   : -2.861
+
+Type  : Fast 1100mV 0C Model Hold 'Clock'
+Slack : -0.048
+TNS   : -0.087
+
+Type  : Fast 1100mV 0C Model Hold 'RAM_generic:inst33|Rammemory_rtl_0_bypass[0]'
+Slack : 0.125
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'FrequencySound:inst1|Clk_1Hz'
+Slack : 0.219
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Reloj_Segundos:inst19|Fin'
+Slack : 0.331
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'Reloj_Segundos:inst19|Fin'
+Slack : -1.541
+TNS   : -12.319
+
+Type  : Fast 1100mV 0C Model Recovery 'FrequencySound:inst1|Clk_1Hz'
+Slack : -1.111
+TNS   : -12.213
+
+Type  : Fast 1100mV 0C Model Recovery 'Clock'
+Slack : -0.647
+TNS   : -14.693
+
+Type  : Fast 1100mV 0C Model Removal 'Clock'
+Slack : 0.435
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'FrequencySound:inst1|Clk_1Hz'
+Slack : 0.875
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'Reloj_Segundos:inst19|Fin'
+Slack : 1.363
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Clock'
+Slack : -2.174
+TNS   : -560.953
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'RAM_generic:inst33|Rammemory_rtl_0_bypass[0]'
+Slack : -0.021
+TNS   : -0.034
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'FrequencySound:inst1|Clk_1Hz'
+Slack : 0.027
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Reloj_Segundos:inst19|Fin'
+Slack : 0.162
+TNS   : 0.000
+
+------------------------------------------------------------
