@@ -1,0 +1,258 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2019  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+# Date created = 10:49:12  August 10, 2023
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		Proyecto_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSXFC6D6F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY Diagram
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 19.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "10:49:12  AUGUST 10, 2023"
+set_global_assignment -name LAST_QUARTUS_VERSION "19.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_timing
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
+set_global_assignment -name VHDL_FILE Teclado_4x4Matricial.vhd
+set_global_assignment -name VHDL_FILE FrequencyGenerator.vhd
+set_global_assignment -name VHDL_FILE FrequencySound.vhd
+set_global_assignment -name BDF_FILE Diagram.bdf
+set_global_assignment -name VHDL_FILE Sostenimiento_generic.vhd
+set_global_assignment -name VHDL_FILE BCDtoBinary_8bits.vhd
+set_global_assignment -name VHDL_FILE BCDtoBinary_11bits.vhd
+set_global_assignment -name VHDL_FILE Reloj_Segundos.vhd
+set_global_assignment -name VHDL_FILE Reloj_Minutos.vhd
+set_global_assignment -name VHDL_FILE Deco_Leds.vhd
+set_global_assignment -name VHDL_FILE Buffer_tristate.vhd
+set_global_assignment -name VHDL_FILE Mux2a1.vhd
+set_global_assignment -name VHDL_FILE Comparator_Generic.vhd
+set_global_assignment -name VHDL_FILE RAM_generic.vhd
+set_global_assignment -name VHDL_FILE Counter_Generic.vhd
+set_global_assignment -name VHDL_FILE Mux2a1_generic.vhd
+set_global_assignment -name VHDL_FILE ROM.vhd
+set_global_assignment -name HEX_FILE Canciones.hex
+set_global_assignment -name VHDL_FILE Buffer_tristate_generic.vhd
+set_global_assignment -name VHDL_FILE MSS.vhd
+set_global_assignment -name VHDL_FILE BinBCD8.vhd
+set_global_assignment -name VHDL_FILE BinBCD16.vhd
+set_global_assignment -name VHDL_FILE BCDto7seg.vhd
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_W15 -to Filas[3]
+set_location_assignment PIN_Y16 -to Filas[2]
+set_location_assignment PIN_AJ1 -to Filas[1]
+set_location_assignment PIN_AH2 -to Filas[0]
+set_location_assignment PIN_AK2 -to Columnas[3]
+set_location_assignment PIN_AK3 -to Columnas[2]
+set_location_assignment PIN_AJ2 -to Columnas[1]
+set_location_assignment PIN_AH3 -to Columnas[0]
+set_location_assignment PIN_AF21 -to Display_minutos_decena[6]
+set_location_assignment PIN_AG21 -to Display_minutos_decena[5]
+set_location_assignment PIN_AF20 -to Display_minutos_decena[4]
+set_location_assignment PIN_AG20 -to Display_minutos_decena[3]
+set_location_assignment PIN_AE19 -to Display_minutos_decena[2]
+set_location_assignment PIN_AF19 -to Display_minutos_decena[1]
+set_location_assignment PIN_AB21 -to Display_minutos_decena[0]
+set_location_assignment PIN_AD21 -to Display_minutos_unidad[6]
+set_location_assignment PIN_AG22 -to Display_minutos_unidad[5]
+set_location_assignment PIN_AE22 -to Display_minutos_unidad[4]
+set_location_assignment PIN_AE23 -to Display_minutos_unidad[3]
+set_location_assignment PIN_AG23 -to Display_minutos_unidad[2]
+set_location_assignment PIN_AF23 -to Display_minutos_unidad[1]
+set_location_assignment PIN_AH22 -to Display_minutos_unidad[0]
+set_location_assignment PIN_Y19 -to Display_segundos_decena[6]
+set_location_assignment PIN_W19 -to Display_segundos_decena[5]
+set_location_assignment PIN_AD19 -to Display_segundos_decena[4]
+set_location_assignment PIN_AA20 -to Display_segundos_decena[3]
+set_location_assignment PIN_AC20 -to Display_segundos_decena[2]
+set_location_assignment PIN_AA19 -to Display_segundos_decena[1]
+set_location_assignment PIN_AD20 -to Display_segundos_decena[0]
+set_location_assignment PIN_AA21 -to Display_segundos_unidad[6]
+set_location_assignment PIN_AB17 -to Display_segundos_unidad[5]
+set_location_assignment PIN_AA18 -to Display_segundos_unidad[4]
+set_location_assignment PIN_Y17 -to Display_segundos_unidad[3]
+set_location_assignment PIN_Y18 -to Display_segundos_unidad[2]
+set_location_assignment PIN_AF18 -to Display_segundos_unidad[1]
+set_location_assignment PIN_W16 -to Display_segundos_unidad[0]
+set_location_assignment PIN_AF16 -to Display_Cancion[6]
+set_location_assignment PIN_V16 -to Display_Cancion[5]
+set_location_assignment PIN_AE16 -to Display_Cancion[4]
+set_location_assignment PIN_AD17 -to Display_Cancion[3]
+set_location_assignment PIN_AE18 -to Display_Cancion[2]
+set_location_assignment PIN_AE17 -to Display_Cancion[1]
+set_location_assignment PIN_V17 -to Display_Cancion[0]
+set_location_assignment PIN_W17 -to Display_compas[6]
+set_location_assignment PIN_V18 -to Display_compas[5]
+set_location_assignment PIN_AG17 -to Display_compas[4]
+set_location_assignment PIN_AG16 -to Display_compas[3]
+set_location_assignment PIN_AH17 -to Display_compas[2]
+set_location_assignment PIN_AG18 -to Display_compas[1]
+set_location_assignment PIN_AH18 -to Display_compas[0]
+set_location_assignment PIN_AF14 -to Clock
+set_location_assignment PIN_AJ4 -to Resetn
+set_location_assignment PIN_AA15 -to Cancion
+set_location_assignment PIN_AK4 -to Ok
+set_location_assignment PIN_AA14 -to Empezar
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Cancion
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Clock
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Columnas[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Columnas[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Columnas[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Columnas[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Columnas
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_Cancion[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_Cancion[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_Cancion[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_Cancion[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_Cancion[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_Cancion[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_Cancion[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_Cancion
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_compas[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_compas[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_compas[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_compas[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_compas[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_compas[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_compas[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_compas
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_minutos_decena[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_minutos_decena[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_minutos_decena[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_minutos_decena[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_minutos_decena[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_minutos_decena[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_minutos_decena[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_minutos_unidad[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_minutos_unidad[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_minutos_unidad[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_minutos_unidad[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_minutos_unidad[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_minutos_unidad[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_minutos_unidad[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_minutos_unidad
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_segundos_decena[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_segundos_decena[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_segundos_decena[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_segundos_decena[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_segundos_decena[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_segundos_decena[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_segundos_decena[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_segundos_decena
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_segundos_unidad[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_segundos_unidad[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_segundos_unidad[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_segundos_unidad[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_segundos_unidad[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_segundos_unidad[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_segundos_unidad[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_segundos_unidad
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Empezar
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Filas[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Filas[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Filas[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Filas[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Filas
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Ok
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Resetn
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_minutos_decena
+set_location_assignment PIN_AD10 -to Buzzer
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Buzzer
+set_location_assignment PIN_AH4 -to Display_BPM_centena[6]
+set_location_assignment PIN_AH5 -to Display_BPM_centena[5]
+set_location_assignment PIN_AG1 -to Display_BPM_centena[4]
+set_location_assignment PIN_AG2 -to Display_BPM_centena[3]
+set_location_assignment PIN_AG3 -to Display_BPM_centena[2]
+set_location_assignment PIN_AG5 -to Display_BPM_centena[1]
+set_location_assignment PIN_AG6 -to Display_BPM_centena[0]
+set_location_assignment PIN_AG7 -to Display_BPM_decena[6]
+set_location_assignment PIN_AG8 -to Display_BPM_decena[5]
+set_location_assignment PIN_AF4 -to Display_BPM_decena[4]
+set_location_assignment PIN_AF5 -to Display_BPM_decena[3]
+set_location_assignment PIN_AF6 -to Display_BPM_decena[2]
+set_location_assignment PIN_AF8 -to Display_BPM_decena[1]
+set_location_assignment PIN_AF9 -to Display_BPM_decena[0]
+set_location_assignment PIN_AF10 -to Display_BPM_unidad[6]
+set_location_assignment PIN_AE7 -to Display_BPM_unidad[5]
+set_location_assignment PIN_AE9 -to Display_BPM_unidad[4]
+set_location_assignment PIN_AE11 -to Display_BPM_unidad[3]
+set_location_assignment PIN_AE12 -to Display_BPM_unidad[2]
+set_location_assignment PIN_AD7 -to Display_BPM_unidad[1]
+set_location_assignment PIN_AD9 -to Display_BPM_unidad[0]
+set_location_assignment PIN_AD11 -to Led1
+set_location_assignment PIN_AD12 -to Led2
+set_location_assignment PIN_AC9 -to Led3
+set_location_assignment PIN_AC12 -to Led4
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_BPM_centena[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_BPM_centena[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_BPM_centena[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_BPM_centena[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_BPM_centena[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_BPM_centena[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_BPM_centena[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_BPM_centena
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_BPM_decena[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_BPM_decena[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_BPM_decena[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_BPM_decena[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_BPM_decena[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_BPM_decena[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_BPM_decena[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_BPM_decena
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_BPM_unidad[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_BPM_unidad[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_BPM_unidad[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_BPM_unidad[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_BPM_unidad[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_BPM_unidad[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_BPM_unidad[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Display_BPM_unidad
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Led1
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Led2
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Led3
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Led4
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
